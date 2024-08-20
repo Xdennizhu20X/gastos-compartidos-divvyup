@@ -25,7 +25,7 @@ import ListarGastos from "./components/cards/listarGasto";
 
 function App() {
   return (
-    <Router basename="/gastos-compartidos-divvyup">
+    <Router >
       <NextUIProvider>
         <div className="overflo">
           <NavbarComponent />
